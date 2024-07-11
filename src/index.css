@@ -25,7 +25,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #155999;
 }
 
 body {
@@ -37,8 +37,19 @@ body {
 }
 
 h1 {
-  font-size: 2.5 em;
+  font-size: 2.5em;
   letter-spacing: 3px;
+}
+h2 {
+  font-size: 2.1em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-top: 0;
 }
 
 /* button {
@@ -76,5 +87,11 @@ nav {
 
 nav a {
   letter-spacing: 2px;
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+@media (min-width: 900px) {
+  nav {
+    padding: 0px 150px;
+  }
 }

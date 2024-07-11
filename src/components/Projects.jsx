@@ -5,7 +5,7 @@ function Projects() {
     {
       name: "Seaye",
       image: "seaye.png",
-      description: "Company Information Site",
+      description: "Company Introduction Site",
       stack: ["React", "Javascript", "CSS"],
       link: "https://seayegroup.com/",
     },
@@ -14,7 +14,7 @@ function Projects() {
       image: "thinktune.png",
       description: "Speech Recognition Game",
       stack: ["React", "Javascript", "CSS", "NodeJS", "ThreeJS"],
-      link: "https://seayegroup.com/",
+      link: "https://www.youtube.com/watch?v=7-5NSuzGqw8&ab_channel=NTUCollegeofComputingandDataScience%28CCDS%29",
     },
   ];
   return (
@@ -23,24 +23,28 @@ function Projects() {
       <div id="projects-content">
         {projects.map((card) => (
           <div className="projects-card">
-            <a href={card.link} target="_blank" className="projects-link">
+            {/* <a href={card.link} target="_blank" className="projects-link">
               Visit
-            </a>
+            </a> */}
 
             <h2>{card.name}</h2>
+            <h3>{card.description}</h3>
 
             <div className="projects-info">
-              <img
-                src={`./src/assets/${card.image}`}
-                alt={card.image}
-                className="projects-image"
-              />
+              <a
+                href={card.link}
+                target="_blank"
+                className="projects-imagelink"
+              >
+                <img
+                  src={`./src/assets/${card.image}`}
+                  alt={card.image}
+                  className="projects-image"
+                />
+              </a>
 
               <div className="projects-desc">
                 <p>
-                  {card.description}
-                  <br />
-                  <br />
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Explicabo eaque tenetur fugit ratione dicta neque officia,
                   commodi, asperiores, sequi iste incidunt ab laboriosam
