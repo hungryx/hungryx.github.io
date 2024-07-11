@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 function TechStack() {
   return (
-    <div className="section" id="TechStack">
-      TechStack
+    <div className="section" id="Tech Stack">
+      <h1>Tech Stack</h1>
     </div>
   );
 }

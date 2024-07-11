@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import TechStack from "./components/TechStack";
-import Works from "./components/Works";
+import Projects from "./components/Projects";
 
 // function App() {
 //   return (
@@ -17,7 +17,7 @@ import Works from "./components/Works";
 //         <About />
 //         <Experience />
 //         <TechStack />
-//         <Works /> */}
+//         <Projects /> */}
 //       </Routes>
 //     </BrowserRouter>
 //   );
@@ -27,11 +27,12 @@ function App() {
   return (
     <div>
       <Navbar />
-
-      <About />
-      <Experience />
-      <TechStack />
-      <Works />
+      <div className="content">
+        <About />
+        <Experience />
+        <Projects />
+        {/* <TechStack /> */}
+      </div>
     </div>
   );
 }

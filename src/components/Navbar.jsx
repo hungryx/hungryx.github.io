@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function Navbar() {
-  const sections = ["About", "Experience", "TechStack", "Works"];
+  const sections = ["About Me", "Experience", "Projects"];
   return (
     <nav>
       {sections.map((section) => (
