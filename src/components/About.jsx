@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 function About() {
   return (
     <div div className="section" id="About Me">

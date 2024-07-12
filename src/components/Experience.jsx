@@ -1,13 +1,41 @@
-import { useState, useEffect } from "react";
-
 function Experience() {
   return (
     <div className="section" id="Experience">
       <h1>Experience</h1>
-      <div id="experience-content">
-        I've worked with Micron as a web developer for an internal application
-        used for automating processes.
-      </div>
+      <h3>
+        Software Developer at <span>Micron Technology Inc</span>
+      </h3>
+      <h3></h3>
+      <p id="experience-content"></p>
+      <ul>
+        <li>
+          Developed an in-house web application for streamlining internal
+          processes to enhance operational efficiency and succeeded in achieving
+          man-hours reduction of 37hours/week
+        </li>
+        <li>
+          Constructed a dynamic and interactive front-end interface using{" "}
+          <span className="highlight">Dash</span> framework
+        </li>
+        <li>
+          Utilized <span className="highlight">Pandas</span> and related
+          libraries and to validate and analyse data on the back-end
+        </li>
+        <li>
+          Worked with <span className="highlight">SQL</span> for data validation
+          scripts, referencing databases and performing queries on SQL Server
+          Management Studio (SSMS)
+        </li>
+        <li>
+          Built and maintained automation scripts using{" "}
+          <span className="highlight">VBScript</span> to streamline SAP
+          execution processes
+        </li>
+        <li>
+          Led weekly discussion sessions and worked closely with the team to
+          refine the application on user feedback{" "}
+        </li>
+      </ul>
     </div>
   );
 }
