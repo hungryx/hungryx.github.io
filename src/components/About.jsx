@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div div className="section" id="About Me">
+    <div div className="section" id="About">
       <h1>About Me</h1>
       <div id="about-content">
         <img
@@ -8,18 +8,16 @@ function About() {
           alt="My Image"
           id="about-image"
         />
-        <p id="about-description">
+        <p className="about-description upper">
           Hi, my name is Ye Xin, a fresh graduate from Nanyang Technological
-          University's Computer Science Programme.
-          <br></br>
-          <br></br>
-          My passion lies in creating practical and interesting web development
-          projects. I have worked on clean single-page corporate applications as
-          well as interative game applications.
-          <br></br>
-          <br></br>I enjoy exploring new technologies and fresh concepts in the
-          field of web development, such as 3D web design and incorporating
-          machine learning.
+          University with a Bachelor of Engineering (Computer Science), with an
+          elective focus in Artificial Intelligence as well as Data Science and
+          Analytics.
+        </p>
+        <p className="about-description lower">
+          My passion lies in creating practical and innovative projects. I enjoy
+          exploring new technologies and concepts in web development, including
+          3D web design and incorporating machine learning.
         </p>
       </div>
     </div>

@@ -7,7 +7,7 @@ function Projects() {
       stack: ["React", "Javascript", "CSS", "Cloudflare"],
       link: "https://seayegroup.com/",
       writeup:
-        "I took charge of designing, developing, and hosting a static website for Seaye Pte. Ltd., a supplier of construction materials for the marine industry. The static website was developed with React for maintainability and a dynamic user experience. It features a bilingual interface with a language toggle function between English and Chinese. The site is fully responsive and provides a consistent user experience across different devices. Deployment of the site was accomplished with Cloudflare Pages.",
+        "Seaye Pte. Ltd. is a supplier of construction materials and equipment for the marine industry. I was responsible for designing, developing, and hosting a static website for the company, managing the project from start to finish. The static website was developed with React for maintainability and a dynamic user experience. It features a bilingual interface with a language toggle function between English and Chinese. The site is fully responsive and provides a consistent user experience across different devices. Deployment of the site was accomplished with Cloudflare Pages.",
     },
     {
       name: "ThinkTune",
@@ -15,15 +15,17 @@ function Projects() {
       description: "Speech Recognition Game for Memory Training",
       stack: ["React", "Javascript", "CSS", "ThreeJS", "NodeJS", "MongoDB"],
       link: "https://www.youtube.com/watch?v=7-5NSuzGqw8&ab_channel=NTUCollegeofComputingandDataScience%28CCDS%29",
-      writeup: "ThinkTune is an auditory game web application, ",
+      writeup:
+        "ThinkTune is an auditory-focused memory training web application built using the MERN stack which features a dynamic React frontend, a Node.js and Express.js backend, and a MongoDB database for efficient data storage and retrieval. I also integrated Three.js to include engaging 3D visual elements extracted using Blender, for a more engaging user experience. TensorFlow.js was used for real-time speech recognition and model fine-tuning on the frontend.",
     },
     {
       name: "BookLens",
       image: "booklens.png",
-      description: "Information Retrieval",
+      description: "Sentiment Analysis",
       stack: ["React", "Javascript", "CSS", "Solr"],
       link: "https://www.youtube.com/watch?v=ZWMEyxRC2sg&ab_channel=AarushiNema",
-      writeup: "writeup section",
+      writeup:
+        "Booklens is search engine for reviews and sentiment analysis of books. React was used to create the intuitive and dynamic interface that allows users to search for specific books and view sentiment analysis on reader reviews. The frontend features multifaceted search capabilities, enabling users to filter results by genre and publication date. Additionally, charts were included to visually represent the sentiment of each book. The system uses API calls to Solr for efficient filtering and querying, leveraging Solr's powerful indexing capabilities.",
     },
   ];
   return (

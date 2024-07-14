@@ -2,10 +2,11 @@ function Experience() {
   return (
     <div className="section" id="Experience">
       <h1>Experience</h1>
-      <h3>
-        Software Developer at <span>Micron Technology Inc</span>
-      </h3>
-      <h3></h3>
+      <h2 id="exp-1">
+        Software Developer
+        <br />
+        <span>MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.</span>
+      </h2>
       <p id="experience-content"></p>
       <ul>
         <li>

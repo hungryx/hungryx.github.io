@@ -51,6 +51,9 @@ h3 {
   font-weight: 500;
   margin-top: 0;
 }
+h4 {
+  margin-top: 0;
+}
 p,
 li {
   line-height: 2em;
@@ -102,8 +105,13 @@ nav a {
   font-size: 1.3em;
 }
 
-@media (min-width: 900px) {
-  nav {
-    padding: 0px 150px;
+@media (max-width: 1000px) {
+  /* nav {
+    padding: 0px 100px;
+  } */
+
+  nav a {
+    letter-spacing: 2px;
+    font-size: 1em;
   }
 }
