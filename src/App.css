@@ -21,7 +21,7 @@
   flex-direction: column;
   padding-left: 50px;
   padding-right: 50px;
-  background: url("logo.svg");
+  background: url("/logo.svg");
   /* background-repeat: no-repeat;
   background-size: 70%;
   background-position: 95% 50%; */

@@ -3,7 +3,7 @@ function About() {
     <div div className="section" id="About">
       <h1>About Me</h1>
       <div id="about-content">
-        <img src="./src/assets/myimage.png" alt="My Image" id="about-image" />
+        <img src="/displays/myimage.png" alt="My Image" id="about-image" />
         <p className="about-description upper">
           Hi, my name is Ye Xin, a fresh graduate from Nanyang Technological
           University with a Bachelor of Engineering (Computer Science), with an

@@ -10,10 +10,7 @@ function Footbar() {
       {contactmethods.map((item) => (
         <div className="contacts">
           <a href={item.link} target="_blank">
-            <img
-              src={`./src/assets/logo/${item.method}.svg`}
-              alt={item.method}
-            />
+            <img src={`/icons/${item.method}.svg`} alt={item.method} />
           </a>
         </div>
       ))}
