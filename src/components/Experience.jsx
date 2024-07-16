@@ -3,7 +3,7 @@ function Experience() {
     <div className="section" id="Experience">
       <h1>Experience</h1>
       <h2 id="exp-1">
-        Software Developer
+        Software Developer Intern
         <br />
         <span>MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.</span>
       </h2>

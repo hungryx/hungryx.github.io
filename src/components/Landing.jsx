@@ -70,7 +70,7 @@ export default function Landing() {
         onAnimationComplete={() => setVisible(!isVisible)}
         className="landing-intro"
       >
-        Hi, I'm Ye Xin
+        Hi, I'm <span>Ye Xin</span>{" "}
       </motion.div>
       {isVisible && (
         <motion.div>

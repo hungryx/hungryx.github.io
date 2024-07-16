@@ -19,14 +19,14 @@
   scrollbar-width: none;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: white;
   text-decoration: inherit;
 }
 a:hover {
   color: #155999;
-}
+} */
 
 body {
   margin: 0;
@@ -100,17 +100,26 @@ nav {
   background-color: #1a1a1a;
 }
 
-nav a {
-  letter-spacing: 2px;
+nav button {
+  font-family: inherit;
+  font-weight: 500;
   font-size: 1.3em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+nav button:hover {
+  color: #155999;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 550px) {
   /* nav {
     padding: 0px 100px;
   } */
 
-  nav a {
+  nav button {
     letter-spacing: 2px;
     font-size: 1em;
   }
