@@ -30,13 +30,14 @@ export default function Landing() {
   useEffect(() => {
     if (isVisible === true) {
       animate(count0, 60, {
+        delay: 0.5,
         type: "tween",
         duration: 2,
         ease: "easeIn",
       });
 
       animate(count1, 60, {
-        delay: 0.7,
+        delay: 1.3,
         type: "tween",
         duration: 2,
         ease: "easeIn",
@@ -73,8 +74,8 @@ export default function Landing() {
       </motion.div>
       {isVisible && (
         <motion.div>
-          <motion.span>{frontText}</motion.span>
-          <motion.span>{displayText}</motion.span>
+          <motion.span className="typewriter">{frontText}</motion.span>
+          <motion.span className="typewriter">{displayText}</motion.span>
           <motion.div
             animate={{
               opacity: [0, 0, 1, 1],

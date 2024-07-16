@@ -4,7 +4,7 @@ function Projects() {
       name: "Seaye",
       image: "seaye.png",
       description: "Marine Equipment and Construction Company Website",
-      stack: ["React", "Javascript", "CSS", "Cloudflare"],
+      stack: ["React", "Javascript", "CSS", "Framer", "Cloudflare"],
       link: "https://seayegroup.com/",
       writeup:
         "Seaye Pte. Ltd. is a supplier of construction materials and equipment for the marine industry. I was responsible for designing, developing, and hosting a static website for the company, managing the project from start to finish. The static website was developed with React for maintainability and a dynamic user experience. It features a bilingual interface with a language toggle function between English and Chinese. The site is fully responsive and provides a consistent user experience across different devices. Deployment of the site was accomplished with Cloudflare Pages.",
