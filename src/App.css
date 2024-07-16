@@ -15,13 +15,20 @@
 }
 
 #Landing {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   height: calc(100vh - 55px);
-  /* width: 100vw;
-  margin: 0px -25px; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.placeholder {
+  height: 40%;
+}
+
+.landing-intro {
+  font-size: 2.5em;
+  font-weight: 800;
 }
 
 #about-content {
@@ -114,6 +121,12 @@
 .highlight {
   font-weight: 600;
   color: #155999;
+}
+.cursor {
+  display: inline-block;
+  height: 15px;
+  margin-left: 3px;
+  border: 1px solid white;
 }
 
 #exp-1 {
