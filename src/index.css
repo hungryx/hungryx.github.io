@@ -114,7 +114,7 @@ nav button:hover {
   color: #155999;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 510px) {
   /* nav {
     padding: 0px 100px;
   } */

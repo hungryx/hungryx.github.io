@@ -221,6 +221,16 @@
   width: 30px;
 }
 
+@media (max-width: 510px) {
+  .stack {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .stack-item {
+    font-size: 0.9em;
+  }
+}
+
 #Footbar {
   border: 3px solid rgba(255, 255, 255, 0.2);
   border-radius: 50px;
