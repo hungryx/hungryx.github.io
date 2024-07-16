@@ -19,7 +19,7 @@
   height: calc(100vh - 55px);
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
+  padding-left: 5%;
   padding-right: 50px;
   background: url("/logo.svg");
   /* background-repeat: no-repeat;
@@ -28,13 +28,6 @@
   background-repeat: repeat;
   background-size: 20%;
   background-position: 0% 50%;
-}
-@media (min-height: 750px) {
-  /* #Landing {
-    background-repeat: repeat;
-    background-size: 80%;
-    background-position: -45% 50%;
-  } */
 }
 .placeholder {
   height: 40%;
@@ -49,6 +42,25 @@
 }
 .typewriter {
   font-size: 1.3em;
+}
+@media (max-width: 510px) {
+  #Landing {
+    /* background-repeat: repeat;
+    background-size: 80%;
+    background-position: -45% 50%; */
+    padding-right: 10px;
+  }
+  .landing-intro {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .landing-intro > span {
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .typewriter {
+    font-size: 1em;
+  }
 }
 
 #about-content {
