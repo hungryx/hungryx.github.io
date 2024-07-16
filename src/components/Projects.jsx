@@ -66,7 +66,10 @@ function Projects() {
                 <div className="stack">
                   {card.stack.map((item) => (
                     <div className="stack-item">
-                      <img src={`/icons/${item}.svg`} alt={item} />
+                      <img
+                        src={`/icons/${item.toLowerCase()}.svg`}
+                        alt={item}
+                      />
                       <p>{item}</p>
                     </div>
                   ))}
