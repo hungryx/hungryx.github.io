@@ -5,7 +5,7 @@ export default function Landing() {
   const [isVisible, setVisible] = useState(false);
 
   // for front part
-  const text = "and I enjoy ";
+  const text = "I enjoy ";
   const count0 = useMotionValue(0);
   const frontText = useTransform(count0, (latest) =>
     text.slice(0, Math.round(latest))
@@ -15,8 +15,9 @@ export default function Landing() {
   const texts = [
     "building functional and neat platforms.",
     "frontend design and development.",
-    "incorporating machine learning and AI.",
     "building fun and engaging projects.",
+    "incorporating new technologies.",
+    "designing and creating work of my own.",
   ];
   const textIndex = useMotionValue(0);
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
@@ -43,7 +44,7 @@ export default function Landing() {
         ease: "easeIn",
         repeat: Infinity,
         repeatType: "reverse",
-        repeatDelay: 1,
+        repeatDelay: 0.5,
         onUpdate(latest) {
           if (updatedThisRound.get() === true && latest > 0) {
             updatedThisRound.set(false);

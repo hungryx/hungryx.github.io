@@ -124,3 +124,8 @@ nav button:hover {
     font-size: 1em;
   }
 }
+@media (min-width: 1000px) {
+  nav {
+    padding: 0px 100px;
+  }
+}

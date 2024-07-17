@@ -5,7 +5,7 @@ function Experience() {
       <h2 id="exp-1">
         Software Developer Intern
         <br />
-        <span>MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.</span>
+        <span>MICRON SEMICONDUCTOR ASIA OPERATIONS</span>
       </h2>
       <p id="experience-content"></p>
       <ul>

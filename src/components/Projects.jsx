@@ -21,11 +21,11 @@ function Projects() {
     {
       name: "BookLens",
       image: "booklens.png",
-      description: "Sentiment Analysis",
+      description: "Search Engine for Book Reviews",
       stack: ["React", "CSS", "Solr"],
       link: "https://www.youtube.com/watch?v=ZWMEyxRC2sg&ab_channel=AarushiNema",
       writeup:
-        "Booklens is search engine for reviews and sentiment analysis of books. React was used to create the intuitive and dynamic interface that allows users to search for specific books and view sentiment analysis on reader reviews. The frontend features multifaceted search capabilities, enabling users to filter results by genre and publication date. Additionally, charts were included to visually represent the sentiment of each book. The system uses API calls to Solr for efficient filtering and querying, leveraging Solr's powerful indexing capabilities.",
+        "Booklens is search engine for reviews and sentiment analysis of books. React was used to create the intuitive and dynamic interface that allows users to search for specific books and view sentiment analysis on reader reviews. The frontend features multifaceted search capabilities, enabling users to filter results by genre and publication date. Additionally, pagination and charts were included to neatly and visually represent the sentiment of each book. The system uses API calls to Solr for efficient filtering and querying, leveraging Solr's powerful indexing capabilities.",
     },
   ];
   return (
@@ -55,12 +55,6 @@ function Projects() {
               </a>
 
               <div className="projects-desc">
-                {/* <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Explicabo eaque tenetur fugit ratione dicta neque officia,
-                  commodi, asperiores, sequi iste incidunt ab laboriosam
-                  voluptatem rem inventore atque facere? Ab, ipsa?
-                </p> */}
                 <p>{card.writeup}</p>
 
                 <div className="stack">

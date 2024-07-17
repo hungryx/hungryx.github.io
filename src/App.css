@@ -49,6 +49,7 @@
     background-size: 80%;
     background-position: -45% 50%; */
     padding-right: 10px;
+    background-size: 30%;
   }
   .landing-intro {
     font-size: 2em;
@@ -170,6 +171,18 @@
   font-size: 0.7em;
   letter-spacing: 0px;
   font-weight: 600;
+}
+@media (max-width: 510px) {
+  #exp-1 {
+    font-size: 1.5em;
+    text-transform: none;
+    letter-spacing: 1px;
+  }
+  #exp-1 span {
+    font-size: 0.6em;
+    letter-spacing: 0px;
+    font-weight: 600;
+  }
 }
 
 #projects-content {
